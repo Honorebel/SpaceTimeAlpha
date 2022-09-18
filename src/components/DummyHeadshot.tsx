@@ -2,7 +2,11 @@
 
 import React from "react";
 
-function DummyHeadshot() {
+interface IDummyHeadshot{
+    display: boolean
+}
+
+function DummyHeadshot({ display }: IDummyHeadshot) {
   return (
     <div className="relative hover:scale-105 cursor-pointer ease-in-out duration-200 ">
       <img
@@ -12,12 +16,12 @@ function DummyHeadshot() {
       />
 
       {/* Online Green Button */}
-      <span className="h-4 w-4 bg-green-500 rounded-full absolute right-0.5 bottom-0.5">
+      <span hidden={!display} className="h-4 w-4 bg-green-500 rounded-full absolute right-0.5 bottom-0.5">
         <span className="h-2 w-2 bg-white rounded-full absolute right-1 bottom-1"></span>
       </span>
 
       {/* Offline Red Button */}
-      <span className="hidden h-4 w-4 bg-red-500 rounded-full absolute right-0.5 bottom-0.5">
+      <span hidden className="h-4 w-4 bg-red-500 rounded-full absolute right-0.5 bottom-0.5">
         <span className="h-2 w-2 bg-white rounded-full absolute right-1 bottom-1"></span>
       </span>
     </div>

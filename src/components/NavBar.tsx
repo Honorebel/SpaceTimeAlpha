@@ -31,7 +31,7 @@ function NavBar() {
             <FiGrid size={30} className="hover:scale-105 cursor-pointer ease-in-out duration-200" />
             <FiBell size={30} className="hover:scale-105 cursor-pointer ease-in-out duration-200" />
             <FiMessageSquare size={30} className="hover:scale-105 cursor-pointer ease-in-out duration-200" />
-            <DummyHeadshot />
+            <DummyHeadshot display={true} />
         </div>
       </div>
     </div>
