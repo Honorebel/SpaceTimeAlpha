@@ -6,8 +6,8 @@ import { BsCardImage, BsCameraVideo } from "react-icons/bs";
 
 function HomePost() {
   return (
-    <div className="w-full h-[150px] border-gray-400 border-2 rounded mb-8 px-4">
-        <div className="w-full flex mt-10">
+    <div className="w-full border-gray-400 border-2 rounded mb-8 px-4">
+        <div className="w-full flex mt-10 mb-8">
           <div>
               <DummyHeadshot display={false} size="w-14" />
           </div>
