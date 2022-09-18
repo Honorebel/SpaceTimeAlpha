@@ -9,9 +9,9 @@ import SearchBox from "./SearchBox";
 
 function NavBar() {
   return (
-    <div className="fixed w-full shadow-xl z-[100]">
+    <div className="fixed w-full shadow-xl z-[100] bg-[#f0f0f0]/90">
       <div className="flex justify-between items-center w-full h-full py-4 px-4 ">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center lg:ml-10">
             {/* SpaceTime logo */}
             <Link to="/">
               <SpaceTime
