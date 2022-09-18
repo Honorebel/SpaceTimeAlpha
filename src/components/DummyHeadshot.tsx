@@ -11,7 +11,7 @@ function DummyHeadshot({ display, size='w-[4rem]' }: IDummyHeadshot) {
   return (
     <div className="relative hover:scale-105 cursor-pointer ease-in-out duration-200 ">
       <img
-        className={`rounded-full object-cover ${size}`}
+        className={`rounded-full shadow-md object-cover ${size}`}
         src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80"
         alt="Dummy Headshot"
       />

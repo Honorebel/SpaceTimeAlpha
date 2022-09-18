@@ -5,9 +5,9 @@ import DummyHeadshot from "../DummyHeadshot";
 
 function HomeProfile() {
   return (
-    <div className="w-full h-[400px] border-gray-400 border-2 rounded mb-8 p-3">
+    <div className="w-full h-full border-gray-400 border-2 rounded mb-8 p-3">
       {/* User Info */}
-      <div className="w-full h-[50%] flex justify-center items-center flex-col">
+      <div className="w-full flex justify-center items-center flex-col">
         <DummyHeadshot display={false} size="w-[6rem]" />
         <h1 className="font-bold mt-4">Anthony Thomas</h1>
         <p className="text-sm text-gray-600 text-center">
@@ -39,8 +39,8 @@ function HomeProfile() {
         </div>
 
         {/* Views & Followers */}
-        <div className="absolute bottom-6 w-full">
-          <div className="relative flex justify-between items-center">
+        <div className="w-full mt-2">
+          <div className="flex justify-between items-center">
               <p className="text-sm text-gray-600">Who's viewed your profile</p>
               <p className="text-sm text-[#253dee] italic">89</p>
           </div>

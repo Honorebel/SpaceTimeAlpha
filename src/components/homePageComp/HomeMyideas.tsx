@@ -4,7 +4,7 @@ import React from "react";
 
 function HomeMyideas() {
   return (
-    <div className="w-full h-[300px] border-gray-400 border-2 rounded mb-4 p-3">
+    <div className="w-full h-full border-gray-400 border-2 rounded mb-4 p-3">
       <div className="w-full">
         <h1 className="font-bold mt-2 text-lg">My ideas</h1>
         {/* Horizontal Blocks Display */}
@@ -27,7 +27,7 @@ function HomeMyideas() {
           </div>
         </div>
         {/* New Collaborator */}
-        <div className="w-full p-1 mt-8 m-auto bg-gray-300 rounded-lg flex items-center">
+        <div className="w-full p-1 m-auto bg-gray-300 rounded-lg flex items-center mt-2">
           <div className="w-[50px] h-[50px] min-w-[50px] bg-[#AAC4FF] rounded-lg"></div>
           <div className="ml-2">
             <h1 className="font-bold text-sm">New Collaborators</h1>
