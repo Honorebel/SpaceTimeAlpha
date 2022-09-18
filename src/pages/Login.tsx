@@ -4,6 +4,7 @@ import React from "react";
 import LoginForm from "../components/LoginForm";
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
+import SpaceTime from "../components/SpaceTime";
 
 function Login() {
   return (
@@ -13,9 +14,7 @@ function Login() {
           <div className="flex justify-center items-center mx-auto w-full h-full max-w-[720px] ">
             <h1 className="text-[#f0f0f0] tracking-wide font-bold text-2xl lg:text-4xl">
               Welcome to
-              <span className="border-[6px] rounded-full px-10 py-4 ml-4 inline-block hvr-buzz-out ">
-                SpaceTime.
-              </span>
+              <SpaceTime borderThickness="border-[5px]" px="px-10" py=" py-4" />
             </h1>
           </div>
         </div>

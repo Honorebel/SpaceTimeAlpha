@@ -1,11 +1,11 @@
 import React from 'react';
+import NavBar from '../components/NavBar';
 
 function Home() {
     return (
         <>
-        <h1>Home Page</h1>
-        <a className='underline block' href="/login">Login</a>
-        <a className='underline block' href="/signup">Signup</a>
+        <NavBar />
+
         </>
     );
 }
