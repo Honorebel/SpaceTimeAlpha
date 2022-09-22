@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import SignupForm from '../components/SignupForm';
+import SignupForm from '../components/auth/SignupForm';
 
 function Signup() {
   return (

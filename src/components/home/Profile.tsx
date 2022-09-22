@@ -11,7 +11,7 @@ function Profile() {
         <DummyHeadshot display={false} size="w-[6rem]" />
         <h1 className="font-bold mt-4">Anthony Thomas</h1>
         <p className="text-sm text-gray-600 text-center">
-          Founder of Diving Clothing and Fashion Designer
+          Student at University of San Diego  
         </p>
       </div>
 

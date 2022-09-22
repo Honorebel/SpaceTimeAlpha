@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import LoginForm from "../components/LoginForm";
+import LoginForm from "../components/auth/LoginForm";
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import SpaceTime from "../components/SpaceTime";
