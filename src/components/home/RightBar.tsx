@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HomeRight() {
+function RightBar() {
     return (
         <div className="w-full h-full max-w-[350px] mx-auto hidden lg:block p-4">
           <div className="w-full h-[300px] border-gray-400 border-2 rounded mb-8"></div>
@@ -10,4 +10,4 @@ function HomeRight() {
     );
 }
 
-export default HomeRight;
+export default RightBar;

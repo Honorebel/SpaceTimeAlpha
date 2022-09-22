@@ -1,10 +1,10 @@
 import React from 'react';
-import HomeJoinedSpace from './HomeJoinedSpace';
-import HomeProfile from './HomeProfile';
-import HomeSkills from './HomeSkills';
-import HomeMyideas from './HomeMyideas';
+import HomeJoinedSpace from './JoinedSpace';
+import HomeProfile from './Profile';
+import HomeSkills from './Skills';
+import HomeMyideas from './MyIdeas';
 
-function HomeLeft() {
+function LeftBar() {
     return (
         <div className="w-full h-full p-4 lg:max-w-[350px] mx-auto  flex justify-center flex-col">
             <HomeProfile />
@@ -14,4 +14,4 @@ function HomeLeft() {
     );
 }
 
-export default HomeLeft;
+export default LeftBar;

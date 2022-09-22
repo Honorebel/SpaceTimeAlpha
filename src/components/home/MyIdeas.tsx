@@ -2,7 +2,7 @@
 
 import React from "react";
 
-function HomeMyideas() {
+function MyIdeas() {
   return (
     <div className="w-full h-full border-gray-400 border-2 rounded mb-4 p-3">
       <div className="w-full">
@@ -41,4 +41,4 @@ function HomeMyideas() {
   );
 }
 
-export default HomeMyideas;
+export default MyIdeas;

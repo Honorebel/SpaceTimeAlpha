@@ -4,7 +4,7 @@ import React from "react";
 import DummyHeadshot from "../DummyHeadshot";
 import { BsCardImage, BsCameraVideo } from "react-icons/bs";
 
-function HomePost() {
+function Post() {
   return (
     <div className="w-full border-gray-400 border-2 rounded mb-8 px-4">
         <div className="w-full flex mt-10 mb-8">
@@ -27,4 +27,4 @@ function HomePost() {
   );
 }
 
-export default HomePost;
+export default Post;

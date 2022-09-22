@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import HomeLeft from "../components/homePageComp/HomeLeft";
-import HomeMiddle from "../components/homePageComp/HomeMiddle";
-import HomeRight from "../components/homePageComp/HomeRight";
+import HomeLeft from "../components/home/LeftBar";
+import HomeMiddle from "../components/home/MiddleBar";
+import HomeRight from "../components/home/RightBar";
 import NavBar from "../components/NavBar";
 
 function Home() {

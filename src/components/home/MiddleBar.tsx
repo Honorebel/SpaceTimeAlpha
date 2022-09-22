@@ -1,8 +1,8 @@
 import React from 'react';
-import HomeFeed from './HomeFeed';
-import HomePost from './HomePost';
+import HomeFeed from './Feed';
+import HomePost from './Post';
 
-function HomeMiddle() {
+function MiddleBar() {
     return (
         <div className="w-full h-full md:col-span-2 p-4">
           <HomePost />
@@ -11,4 +11,4 @@ function HomeMiddle() {
     );
 }
 
-export default HomeMiddle;
+export default MiddleBar;

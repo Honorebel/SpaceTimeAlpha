@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HomeJoinedSpace() {
+function JoinedSpace() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function HomeJoinedSpace() {
     );
 }
 
-export default HomeJoinedSpace;
+export default JoinedSpace;

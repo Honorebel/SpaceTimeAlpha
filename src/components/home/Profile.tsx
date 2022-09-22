@@ -3,7 +3,7 @@
 import React from "react";
 import DummyHeadshot from "../DummyHeadshot";
 
-function HomeProfile() {
+function Profile() {
   return (
     <div className="w-full h-full border-gray-400 border-2 rounded mb-8 p-3">
       {/* User Info */}
@@ -54,4 +54,4 @@ function HomeProfile() {
   );
 }
 
-export default HomeProfile;
+export default Profile;

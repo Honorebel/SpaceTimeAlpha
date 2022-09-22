@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HomeCommercials() {
+function News() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function HomeCommercials() {
     );
 }
 
-export default HomeCommercials;
+export default News;

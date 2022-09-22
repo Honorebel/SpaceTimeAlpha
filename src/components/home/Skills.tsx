@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HomeSkills() {
+function Skills() {
     return (
         <div className="w-full h-full border-gray-400 border-2 rounded p-4">
             <div className="w-full">
@@ -29,4 +29,4 @@ function HomeSkills() {
     );
 }
 
-export default HomeSkills;
+export default Skills;

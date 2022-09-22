@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HomeSavedIdeas() {
+function SavedIdeas() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function HomeSavedIdeas() {
     );
 }
 
-export default HomeSavedIdeas;
+export default SavedIdeas;
