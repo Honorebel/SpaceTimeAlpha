@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import SignupForm from '../components/auth/SignupForm';
 
 function Signup() {
+
   return (
     <>
       <div className="w-full h-screen grid md:grid-cols-2 lg:grid-cols-5">

@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import DummyHeadshot from "../DummyHeadshot";
+import UserHeadshot from "../UserHeadshot";
 import { BsCardImage, BsCameraVideo } from "react-icons/bs";
 
 function Post() {
@@ -9,7 +9,7 @@ function Post() {
     <div className="w-full border-gray-400 border-2 rounded mb-8 px-4">
         <div className="w-full flex mt-10 mb-8">
           <div>
-              <DummyHeadshot display={false} size="w-14" />
+              <UserHeadshot size="w-14" />
           </div>
           <div className="w-full ml-4 mt-1">
             <input

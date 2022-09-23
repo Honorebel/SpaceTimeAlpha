@@ -7,6 +7,7 @@ import HomeRight from "../components/home/RightBar";
 import NavBar from "../components/NavBar";
 
 function Home() {
+  
   return (
     <>
       <NavBar />

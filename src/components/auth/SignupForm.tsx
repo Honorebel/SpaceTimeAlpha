@@ -1,16 +1,37 @@
 /** @format */
 
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../contexts/AuthContext";
 
 function SignupForm() {
-  const [email, setEmail] = useState<string>("");
-  const [password, setPassword] = useState<string>("");
+  const [email, setEmail] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
+  const [error, setError] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
+  const { user, signup } = useAuth();
+  const navigate = useNavigate();
 
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
 
-    console.log(email, password);
-  };
+  const handleSubmit = async (e:React.FormEvent) => {
+      e.preventDefault();
+
+      try {
+          setError('');
+          setLoading(true);
+          
+          await signup(email, password);
+          navigate('/');
+      } catch (e:any) {
+          setError(e.message);
+          console.log(e.message);
+          
+      }
+      setLoading(false);
+  }
+
+  console.log(user);
+  
 
   return (
     <form className="w-full flex flex-col" onSubmit={handleSubmit}>
