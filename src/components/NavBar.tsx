@@ -27,10 +27,6 @@ function NavBar() {
           setError(e.message);
       }
   }
-
-  console.log(user);
-  console.log(user.displayName);
-  console.log(user.photoURL);
   
 
   return (
@@ -57,7 +53,7 @@ function NavBar() {
               <FiMessageSquare size={30} className="hover:scale-105 cursor-pointer ease-in-out duration-200" />
               
               
-              <Collapsible trigger={<UserHeadshot size="w-[3rem]" />}>
+              <Collapsible trigger={<UserHeadshot />}>
                 {user ? <p onClick={handleLogout} className="underline cursor-pointer text-sm text-center">Logout</p> : <p className="underline cursor-pointer text-sm text-center">Login</p>}
               </Collapsible>
 

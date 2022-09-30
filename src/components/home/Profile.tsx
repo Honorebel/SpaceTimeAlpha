@@ -9,11 +9,13 @@ function Profile() {
   const { user } = useAuth();
 
 
+  console.log(user);
+  
   return (
     <div className="w-full h-full border-gray-400 border-2 rounded mb-8 p-3">
       {/* User Info */}
       <div className="w-full flex justify-center items-center flex-col">
-        <UserHeadshot size="w-[6rem]" />
+        <UserHeadshot />
         <h1 className="font-bold mt-4">{user.displayName}</h1>
         <p className="text-sm text-gray-600 text-center">
           Student at University of San Diego  
