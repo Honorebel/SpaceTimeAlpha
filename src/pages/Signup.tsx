@@ -25,7 +25,7 @@ function Signup() {
           setLoading(true);
           
           await signup(email, password);
-          await update(fn+" "+ln);
+          // await update(fn+" "+ln);
           
           // await login(email, password);
         } catch (e:any) {
